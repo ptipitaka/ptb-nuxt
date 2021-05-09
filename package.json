@@ -1,0 +1,21 @@
+{
+  "name": "ptb-nuxt",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content-theme-docs": "^0.10.1",
+    "nuxt": "^2.15.2"
+  },
+  "devDependencies": {
+    "fiber": "^1.0.4",
+    "fibers": "^5.0.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^10.1.1"
+  }
+}

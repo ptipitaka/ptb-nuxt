@@ -1,0 +1,41 @@
+* {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 300;
+}
+
+hr {
+    @apply mt-4 mb-12
+}
+
+.page-enter-active, .page-leave-active { transition: opacity .3s; }
+.page-enter, .page-leave-active { opacity: 0; }
+
+/* custom  content style */
+.nuxt-content h1 {
+    /* my custom h1 style */
+    @apply text-red-800 font-bold text-3xl text-center py-16
+}
+.nuxt-content h2 {
+    @apply text-red-800 font-bold text-xl text-center pt-16 pb-4
+}
+.nuxt-content h3 {
+    @apply text-red-800 text-xl font-thin text-center pt-4 pb-2
+}
+.nuxt-content h4 {
+    @apply text-red-800 text-base font-thin text-center pt-2 pb-2
+}
+.nuxt-content p {
+    @apply py-2;
+    text-indent: 10%
+}
+
+/* custom class */
+.buddhist-verse-head {
+    @apply text-red-800 text-3xl font-bold pt-16 pb-12
+}
+.buddhist-verse-body {
+    @apply text-red-800 text-xl pb-6
+}
+.buddhist-verse-footer {
+    @apply text-red-800 text-base pt-8
+}

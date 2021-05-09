@@ -1,0 +1,10 @@
+{
+  "title": "PTB",
+  "url": "ptb.ptipitaka.org",
+  "logo": {
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png"
+  },
+  "github": "ptipitaka/ptb",
+  "twitter": "@nuxt_js"
+}
